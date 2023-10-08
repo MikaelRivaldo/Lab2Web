@@ -94,6 +94,94 @@ Kemudian tambahkan deklarasi inline CSS pada tag <p> seperti berikut
 
 `Dan untuk hasilnya akan seperti ini  :`
 
+![tampilan inline css](https://github.com/MikaelRivaldo/Lab2Web/assets/115770247/724fdcf1-ad97-4dc8-ae02-17830c1e9ecd)
 
+`Selanjutnya Menambahkan Membuat CSS Eksternal`
 
+Buatlah file baru dengan nama style_eksternal.css kemudian buatlah deklarasi CSS seperti berikut
+
+`Untuk sourcodenya bisa menggunakan dibawah ini:`
+
+```html
+
+nav {
+background: #20A759;
+color:#fff;
+padding: 10px;
+}
+nav a {
+color: #fff;
+text-decoration: none;
+padding:10px 20px;
+}
+nav .active,
+nav a:hover {
+background: #0B6B3A;
+}
+
+```
+
+`Dan untuk hasilnya akan seperti ini  :`
+
+![tampilan css ekternal](https://github.com/MikaelRivaldo/Lab2Web/assets/115770247/d7fc125b-dd77-4cb3-9908-ad087567a460)
+
+`Kemudian tambahkan tag <link> untuk merujuk file css yang sudah dibuat pada bagian <head>`
+
+`Untuk sourcodenya bisa menggunakan dibawah ini:`
+
+```html
+
+<head>
+<!-- menyisipkan css eksternal -->
+<link rel="stylesheet" href="style_eksternal.css" type="text/css">
+</head>
+
+```
+`kita bisa sisipkan seperti dibawah ini`
+
+![tampilan link](https://github.com/MikaelRivaldo/Lab2Web/assets/115770247/5e46f2d8-db73-448d-8319-6a38cdc415b4)
+
+`Dan untuk hasilnya akan seperti ini  :`
+
+![tampilan css ekternal](https://github.com/MikaelRivaldo/Lab2Web/assets/115770247/2fb334a0-4fda-45e5-a08c-175feda7d8a2)
+
+`Selanjutnya Menambahkan Membuat CSS Selector`
+
+Selanjutnya menambahkan CSS Selector menggunakan ID dan Class Selector. Pada file
+style_eksternal.css, tambahkan kode berikut
+
+`Untuk sourcodenya bisa menggunakan dibawah ini:`
+
+```html
+
+/* ID Selector */
+#intro {
+background: #418fb1;
+border: 1px solid #099249;
+min-height: 100px;
+padding: 10px;
+}
+#intro h1 {
+text-align: left;
+border: 0;
+color: #fff;
+}
+/* Class Selector */
+.button {
+padding: 15px 20px;
+background: #bebcbd;
+color: #fff;
+display: inline-block;
+margin: 10px;
+text-decoration: none;
+}
+.btn-primary {
+background: #E42A42;
+}
+
+```
+
+`Dan untuk hasilnya akan seperti ini  :`
+
+![tampilan css selector](https://github.com/MikaelRivaldo/Lab2Web/assets/115770247/ecbe8400-4e85-4b7d-bcb5-5b44f59066ab)
 
